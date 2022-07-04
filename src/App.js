@@ -1,16 +1,12 @@
-import './App.css';
-import Products from './components/Products';
-// import Article from './components/Article';
-
-
-function App(props) {
-
+import Products from "./components/Products/Products";
+import ShoppingCart from "./components/Cart/ShoppingCart";
+const App = () => {
   return (
-      // <Article {...props}/>
     <>
-      <Products  />
+      <ShoppingCart />
+      <Products />
     </>
   );
-}
+};
 
 export default App;
