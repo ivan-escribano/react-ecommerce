@@ -1,18 +1,24 @@
 import ProductItem from "./ProductItem";
 
-const Products = () => {
+const Products = ({ products, setItem, item }) => {
   return (
-    <div>
+    <div className="p-5">
       <h1>PRODUCTS</h1>
-      {/*DO A MAP FUNCTION*/}
-      <ProductItem></ProductItem>
-      <ProductItem></ProductItem>
-      <ProductItem></ProductItem>
-      <ProductItem></ProductItem>
-      <ProductItem></ProductItem>
-      <ProductItem></ProductItem>
-      <ProductItem></ProductItem>
-      <ProductItem></ProductItem>
+      <div className="products row row-cols-4 g-4 m-0 ">
+        {products.map((product) => {
+          return (
+            <ProductItem
+              title={product.title}
+              url={product.url}
+              price={product.price}
+              key={product.id}
+              setItem={setItem}
+              item={item}
+              product={product}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

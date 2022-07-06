@@ -1,0 +1,77 @@
+/*!SHOPPING CART*/
+.shopping-cart {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: transparent;
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.shopping-cart:hover {
+  transform: scale(1.1);
+}
+/*!COLOR PRIMARY BUTTON*/
+.btn-color {
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+
+.btn-color:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+/*!QUANTITY COMPONENT*/
+.product-quantity {
+  display: flex;
+}
+.quantity__btn-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0.3rem;
+}
+
+.quantity__btn {
+  border: none;
+  margin-right: 0.2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.quantity__btn:hover {
+  background-color: rgb(216, 216, 216);
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Air force 1 07 premium",
+    "price": 100,
+    "url": "./img/img1.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Air force 1 lv8",
+    "price": 120,
+    "url": "./img/img2.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Air force 1 next nature",
+    "price": 130,
+    "url": "./img/img3.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Air max pre day se",
+    "price": 80,
+    "url": "./img/img4.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Jordan point lane",
+    "price": 90,
+    "url": "./img/img5.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Nike air max dawn",
+    "price": 170,
+    "url": "./img/img6.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Air Jordan 1 mid",
+    "price": 140,
+    "url": "./img/img7.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Converse chuck taylor",
+    "price": 130,
+    "url": "./img/img8.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Dunk high retro",
+    "price": 90,
+    "url": "./img/img9.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Air max 97 se",
+    "price": 150,
+    "url": "./img/img10.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Acg air mowwab",
+    "price": 70,
+    "url": "./img/img11.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Air jordan 1 mid green",
+    "price": 90,
+    "url": "./img/img12.jpeg"
+  }
+]
