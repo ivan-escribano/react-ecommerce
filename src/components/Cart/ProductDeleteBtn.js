@@ -5,6 +5,8 @@ const ProductDeleteBtn = ({ id, item, setItem }) => {
     const deleteItem = item.filter((element) => {
       if (element.id !== id) {
         return element;
+      } else {
+        element.quantity = 0;
       }
     });
     setItem(deleteItem);

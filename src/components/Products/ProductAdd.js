@@ -8,7 +8,8 @@ const ProductAdd = ({ setItem, item, product }) => {
     });
     if (!existProduct) {
       product.quantity = 1;
-      setItem([...item, product]);
+      let newProduct = [...item, product];
+      setItem(newProduct);
     }
   };
   return (
