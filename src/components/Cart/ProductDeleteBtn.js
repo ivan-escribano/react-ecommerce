@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductDeleteBtn = ({ id, item, setItem }) => {
+const ProductDeleteBtn = ({ id, item, setItem, setAlertShow }) => {
   const deleteItem = () => {
     const deleteItem = item.filter((element) => {
       if (element.id !== id) {
@@ -9,6 +9,7 @@ const ProductDeleteBtn = ({ id, item, setItem }) => {
         element.quantity = 0;
       }
     });
+
     setItem(deleteItem);
   };
   return (

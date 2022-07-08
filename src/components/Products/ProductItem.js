@@ -1,6 +1,14 @@
 import ProductAdd from "./ProductAdd";
 
-const ProductItem = ({ title, url, price, setItem, item, product }) => {
+const ProductItem = ({
+  title,
+  url,
+  price,
+  setItem,
+  item,
+  product,
+  setAlertShow,
+}) => {
   return (
     <div className="porduct-item">
       <div className="card p-0">
@@ -13,7 +21,12 @@ const ProductItem = ({ title, url, price, setItem, item, product }) => {
             its footwear, apparel, and equipment. Founded in 1964 as Blue Ribbon
             Sports.
           </p>
-          <ProductAdd setItem={setItem} item={item} product={product} />
+          <ProductAdd
+            setItem={setItem}
+            item={item}
+            product={product}
+            setAlertShow={setAlertShow}
+          />
         </div>
       </div>
     </div>

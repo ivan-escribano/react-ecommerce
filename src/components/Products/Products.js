@@ -1,6 +1,6 @@
 import ProductItem from "./ProductItem";
 
-const Products = ({ products, setItem, item }) => {
+const Products = ({ products, setItem, item, setAlertShow }) => {
   return (
     <div className="p-5">
       <h1>PRODUCTS</h1>
@@ -15,6 +15,7 @@ const Products = ({ products, setItem, item }) => {
               setItem={setItem}
               item={item}
               product={product}
+              setAlertShow={setAlertShow}
             />
           );
         })}

@@ -1,4 +1,4 @@
-const ProductAdd = ({ setItem, item, product }) => {
+const ProductAdd = ({ setItem, item, product, setAlertShow }) => {
   const addItem = () => {
     let existProduct = false;
     item.forEach((element) => {
@@ -10,6 +10,9 @@ const ProductAdd = ({ setItem, item, product }) => {
       product.quantity = 1;
       let newProduct = [...item, product];
       setItem(newProduct);
+      setAlertShow("add");
+    } else {
+      setAlertShow("duplicated");
     }
   };
   return (

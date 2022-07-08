@@ -1,6 +1,6 @@
 import ProductCart from "./ProductCart";
 
-const Cart = ({ item, setItem }) => {
+const Cart = ({ item, setItem, setAlertShow }) => {
   return (
     <div>
       {item.map((element) => {
@@ -14,6 +14,7 @@ const Cart = ({ item, setItem }) => {
             setItem={setItem}
             item={item}
             quantity={element.quantity}
+            setAlertShow={setAlertShow}
           />
         );
       })}

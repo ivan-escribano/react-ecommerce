@@ -1,7 +1,16 @@
 import ProductQuantity from "./ProductQuantity";
 import ProductDeleteBtn from "./ProductDeleteBtn";
 
-const ProductCart = ({ title, price, url, id, setItem, item, quantity }) => {
+const ProductCart = ({
+  title,
+  price,
+  url,
+  id,
+  setItem,
+  item,
+  quantity,
+  setAlertShow,
+}) => {
   return (
     <div className="card mb-3 w-100">
       <div className="row g-0">
@@ -19,7 +28,12 @@ const ProductCart = ({ title, price, url, id, setItem, item, quantity }) => {
                 setItem={setItem}
                 id={id}
               />
-              <ProductDeleteBtn id={id} item={item} setItem={setItem} />
+              <ProductDeleteBtn
+                id={id}
+                item={item}
+                setItem={setItem}
+                setAlertShow={setAlertShow}
+              />
             </div>
           </div>
         </div>

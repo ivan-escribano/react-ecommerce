@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Nike",
+    "description": "“Dedication makes dreams come true.”",
+    "url": "./img/background1.jpg",
+    "interval": 5000,
+    "active": "active"
+  },
+  {
+    "id": 2,
+    "title": "Just do it",
+    "description": "Some representative placeholder content for the first slide.",
+    "url": "./img/background2.jpg",
+    "interval": 2000,
+    "active": ""
+  },
+  {
+    "id": 3,
+    "title": "Dream big",
+    "description": "Some representative placeholder content for the first slide.",
+    "url": "./img/background4.jpg",
+    "interval": 2000,
+    "active": ""
+  }
+]
